@@ -12,9 +12,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "vite build  && cd dist && cp index.html 404.html",
+    "build": "vite build && cd dist && cp index.html 404.html",
     "serve": "vite preview",
-    "start": "react-scripts start",
+    "start": "vite preview",
     "test": "cross-env NODE_ENV=test jest --config=jest.config.json"
   },
   "devDependencies": {
@@ -79,3 +79,4 @@
     "yup": "^0.32.9"
   }
 }
+
